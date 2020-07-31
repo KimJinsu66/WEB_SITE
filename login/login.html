@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      table {
+        border : 1px solid black;
+        width : 70%;
+        height : 70%;
+        padding : 50px;
+        margin : 30px;
+      }
+      body {
+        text-align: center;
+      }
+      body > h1 {
+        color:blue;
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <h1>Sign up</h1>
+  <form action = "sign_up.php" method = "post">
+
+      <div id = "content">
+        <h3>User name : <input type = "text" name = "u_name" size = "15"></h3>
+      </div>
+
+      <div id = "content">
+        <h3>Gender</h3>
+        <input type = "radio" name = "gender" value="male">Male
+        <input type = "radio" name = "gender" value="female">Female
+
+      </div>
+
+      <div id = "content">
+        <h3>Phone Number : <input type = "text" name = "phone_number" size = "15"> </h3>
+      </div>
+
+      <div id = "content">
+        <h3>Address : <input type = "text" name = "address" size = "15"> </h3>
+      </div>
+
+      <div id = "content">
+        <h3>ID : <input type = "text" name = "pwd" size = "18">   </h3>
+      </div>
+
+      <div id = "content">
+        <h3>PassWord : <input type = "password" name = "pwd" size = "18">   </h3>
+      </div>
+
+      <div>
+        <h3>E-mail : <input type = "email" name = "email"> </h3>
+      </div>
+
+      <div>
+        <h3>Birthday</h3>
+        <input type = "date" name = "b_day">
+      </div>
+      <br>
+
+      <div>
+        Submit <input type = "submit" name = "submit">
+      </div>
+
+  </form>
+</body>
+</html>
